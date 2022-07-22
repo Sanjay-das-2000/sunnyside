@@ -1,0 +1,367 @@
+.bg-img{
+    background-image: url("images/desktop/image-header.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    position: relative;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+.img-content{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    border-radius: 20px;
+    color: rgb(249, 249, 249);
+    font-family: 'Mukta Malar', sans-serif;
+    margin-left: 30px;
+}
+
+.navbar h3{
+    color: rgb(252, 250, 250);
+    font-family: 'Bree Serif', serif;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: rgb(249, 250, 250);
+    color: rgb(14, 13, 13);
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link.active{
+    background-color: rgb(249, 250, 250);
+    color: rgb(14, 13, 13);
+} */
+
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+#image{
+    padding-right: 0px;
+    padding-left: 0px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; */
+    
+}
+
+#text{
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 15%;
+    color: rgb(76, 75, 75);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6{
+    flex: 50%;
+    max-width: 50%;
+}
+
+.row img{
+    width: 100%;    
+}
+
+.collm{
+    position: relative;
+}
+
+.container-fluid .text-cont{
+    max-width: 450px;
+    margin: auto;
+}
+
+.container-fluid p{
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.container-fluid .heading-tags{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+.container-fluid .heading-tags1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+
+.actions {
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    margin-left: 10%;
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    color: rgb(51, 50, 50);
+}
+
+/* #demo{
+    background-color: rgb(67, 65, 65);
+} */
+
+.carousel{
+    background: #E41655;
+}
+
+.carousel-container img{
+    width:20%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    height: 30rem;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-container p{
+    margin: 1.5rem auto;
+}
+
+.carousel-container h3{
+    font-family: 'Bree Serif', serif;
+}
+
+.carousel-container{
+    max-width: 650px;
+    margin: auto;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: rgb(249, 247, 247);
+
+}
+
+#bot-img{
+    padding: 0;
+}
+
+
+.footer{
+    background: #99DDCC;
+    color: #2C7566;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer h3{
+    font-family: 'Bree Serif', serif;
+}
+
+.contact{
+    margin: 2rem auto;
+}
+
+.contact a{
+    display:inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #2C7566;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.contact a:hover{
+    text-decoration:none;
+    color: #173d35;
+}
+
+.logo a{
+    display:inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+    .container-fluid {
+      font-size: 15px;
+    }
+    .container-fluid .heading-tags{
+        font-size: 20px;
+    }
+    .container-fluid .heading-tags1{
+        font-size: 16px;
+    }
+    .collm .actions .heading-tags {
+        margin-bottom: 5px;
+    }
+    .collm .actions p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .actions{
+        top:60%;
+    }
+/* carousel */
+    .carousel-item{
+        height: 22rem;
+    }
+    .carousel-item .carousel-container{
+        bottom: 50px;
+        max-width: 450px;
+    }
+
+    /* footer */
+    .footer{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact{
+        margin: 1rem auto;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    /* navbar */
+    .navbar{
+        font-size: 16px;
+    }
+
+    .img-content{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    /* fluid container */
+    .collm .actions p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .actions{
+        top:55%;
+    }
+    .container-fluid .heading-tags{
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .container-fluid .heading-tags1{
+        font-size: 12px;
+        margin-bottom: 2px;
+
+    }
+
+    .container-fluid .row p{
+        font-size: 14px;
+        }
+
+    .collm .actions p{
+        font-size: 10px;
+        line-height: 11px;
+    }
+/* carousel */
+    .carousel-item{
+        height: 18rem;
+    }
+    .carousel-item .carousel-container{
+        bottom: 15px;
+        max-width: 350px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .bg-img{
+        min-height: 470px;
+    }
+    .container-fluid .row .text-cont{
+        max-width: 200px;
+        /* max-height: 30px; */
+        margin: auto;
+    }
+    #text{
+        margin-top: 10%;
+    }
+    .container-fluid .text-cont p{
+        font-size: 12px;
+    }
+
+    .container-fluid .row p{
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .collm .actions p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    /* carousel */
+    .carousel-item{
+        height: 15rem;
+    }
+    .carousel-item .carousel-container{
+        bottom: 20px;
+        max-width: 250px;
+        font-size: small;
+    }
+    .carousel-container p{
+        margin: 1rem auto;
+    }
+
+        /* footer */
+        .footer{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    
+        .contact{
+            margin: .7rem auto;
+        }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .container-fluid .heading-tags{
+        font-size: 18px;
+    }
+
+    .container-fluid .heading-tags1{
+        font-size: 10px;
+    }
+
+    .container-fluid .text-cont p{
+        font-size: 10px;
+    }
+
+    .container-fluid .row p{
+        font-size: 11px;
+    }
+
+    .collm .actions p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .img-content p{
+        max-width: 300px;
+        margin: auto;
+    }
+  }
+
